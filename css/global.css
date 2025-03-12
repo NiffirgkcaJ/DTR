@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+}
+
+/* Ensures table does not auto-adjust column widths */
+.table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* Prevents column shifting */
+th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Ensures username text does not expand column width */
+.truncate-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Keeps button widths consistent */
+.deleteAdminBtn, .btn-secondary {
+    min-width: 150px;
+}

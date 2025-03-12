@@ -1,0 +1,7 @@
+<svg width="50" height="85" viewBox="0 0 50 85" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Triangle (touching top, left, and right edges) -->
+  <polygon points="25,0 0,35 50,35" fill="black"/>
+  
+  <!-- Bottom Triangle (touching bottom, left, and right edges) -->
+  <polygon points="25,85 0,50 50,50" fill="black"/>
+</svg>
